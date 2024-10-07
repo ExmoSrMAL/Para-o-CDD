@@ -1,7 +1,8 @@
-nomes = ["","","","",""]
+nomes = [""]*5
 tamanho = len(nomes)
-for i in range (tamanho):
-  nomes[i]=input("Digite seu nome:")
+for x in range (tamanho):
+  nomes[x]=input("Digite seu nome:")
+print(nomes)
 
-for x in range(tamanho):
-  print(nomes[x])
+nomes.reverse()
+print(nomes)
